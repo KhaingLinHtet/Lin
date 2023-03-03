@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:url(./Photo/photo-1552072092-7f9b8d63efcb.avif) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    padding-left: 20px;
+}
+.header .btn{
+    background-color: #8EC5FC;
+    border-radius: 20px;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.navbar{
+    text-align: center;
+    flex: 1;
+}
+.navbar a{
+    padding: 6px 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* .signUp{
+    background-color:none;
+    width: 400px;
+    height: 320px;
+    background: linear-gradient();
+    border-radius: 10px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+.signUp h2{
+    margin-top: 200px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    color: blueviolet;
+}
+.signUp input{
+    padding-top: 10px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.signUp label{
+    color: azure;
+}
+.signUp button{
+  margin-left: 60px;
+}
+.signUp p{
+    color: cadetblue ;
+} */
+
+/* About us */
+.about_body{
+    background-color: wheat;
+    width: 100%;
+    height: 100vh;
+}
+.about_para{
+    font-size: 20px;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+.about_photo{
+    column-count: 2;
+}
+.about_photo img{
+    padding-left: 50px;
+    padding-bottom: 30px;
+    width: 450px;
+}
+
+/* Class */
+.class_body{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 100vh;
+}
+.head1{
+    color: #070408;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+.takwondo{
+    display: flex;
+}
+.takwondo img{
+    width: 300px;
+    padding-left: 15px;
+}
+.takwondo p{
+    padding-left: 40px;
+    font-size: larger;
+    /* text-align: center; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head2{
+    color: #070408;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.muaythai{
+    display: flex;
+}
+.muaythai img{
+    width: 300px;
+    padding-left: 15px;
+}
+.muaythai p{
+    padding-left: 40px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head3{
+    color: #070408;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.jiujitsu{
+    display: flex;
+}
+.jiujitsu img{
+    width: 300px;
+    padding-left: 15px;
+}
+.jiujitsu p{
+    padding-left: 40px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head4{
+    color: #070408;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.kungfu{
+    display: flex;
+}
+.kungfu img{
+    width: 300px;
+    padding-left: 15px;
+}
+.kungfu p{
+    padding-left: 40px;
+    font-size: larger;
+    /* text-align: center; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}.head5{
+    color: #070408;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.judo{
+    display: flex;
+}
+.judo img{
+    width: 300px;
+    /* height: 200px; */
+    padding-left: 15px;
+}
+.judo p{
+    padding-left: 40px;
+    font-size: larger;
+    /* text-align: center; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.class_body .pr{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 380px;
+    color: darkblue;
+}
+.pr_table{
+    margin-left: 350px;
+    margin-right: 50px;
+    padding-bottom: 80px;
+    color: white;
+}
+.special_class{
+    margin-left: 350px;
+    margin-right: 50px;
+    padding-bottom: 80px;
+    color: white;
+}
+
+/* Instructors */
+.instructor_body{
+    background-color:black;
+    width: 100%;
+    height: 100vh;
+}
+.place1 h1{
+    color: slateblue;
+   padding-top: 90px;
+   padding-left: 300px;
+}
+.place1 img{
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 380px;
+}
+.instructor_btn1{
+    display: flex;
+}
+.instructor_btn1 button{
+    justify-content: center;
+    align-items: auto;
+    width: 200px;
+    margin-left: 530px;
+}
+.text1{
+    text-align: left;
+    margin-left: 520px;
+    /* margin-right: 200px; */
+    font-size: 20px;
+   
+    color: white;
+}
+.place2 h1{
+    color: slateblue;
+   padding-top: 90px;
+   padding-left: 300px;
+}
+.place2 img{
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 380px;
+}
+.instructor_btn2{
+    display: flex;
+}
+.instructor_btn2 button{
+    justify-content: center;
+    align-items: auto;
+    width: 200px;
+    margin-left: 530px;
+}
+.text2{
+    text-align: left;
+    margin-left: 520px;
+    /* margin-right: 200px; */
+    font-size: 20px;
+    color: white;
+}
+
+.place3 h1{
+    color: slateblue;
+   padding-top: 90px;
+   padding-left: 300px;
+}
+.place3 img{
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 380px;
+}
+.instructor_btn3{
+    display: flex;
+}
+.instructor_btn3 button{
+    justify-content: center;
+    align-items: auto;
+    width: 200px;
+    margin-left: 530px;
+}
+.text3{
+    text-align: left;
+    margin-left: 520px;
+    /* margin-right: 200px; */
+    font-size: 20px;
+    color: white;
+}
+
+.place4 h1{
+    color: slateblue;
+   padding-top: 90px;
+   padding-left: 300px;
+}
+.place4 img{
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 380px;
+}
+.instructor_btn4{
+    display: flex;
+}
+.instructor_btn4 button{
+    justify-content: center;
+    align-items: auto;
+    width: 200px;
+    margin-left: 530px;
+}
+.text4{
+    text-align: left;
+    margin-left: 520px;
+    /* margin-right: 200px; */
+    font-size: 20px;
+   
+    color: white;
+}
+
+.place5 h1{
+    color: slateblue;
+   padding-top: 90px;
+   padding-left: 300px;
+}
+.place5 img{
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 380px;
+}
+.instructor_btn5{
+    display: flex;
+}
+.instructor_btn5 button{
+    justify-content: center;
+    align-items: auto;
+    width: 200px;
+    margin-left: 530px;
+}
+.text5{
+    text-align: left;
+    margin-left: 520px;
+    /* margin-right: 200px; */
+    font-size: 20px;
+   
+    color: white;
+}
+
+.place6 h1{
+    color: slateblue;
+   padding-top: 90px;
+   padding-left: 300px;
+}
+.place6 img{
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 380px;
+}
+.instructor_btn1{
+    display: flex;
+}
+.instructor_btn6 button{
+    justify-content: center;
+    align-items: auto;
+    width: 200px;
+    margin-left: 530px;
+}
+.text6{
+    text-align: left;
+    margin-left: 520px;
+    /* margin-right: 200px; */
+    font-size: 20px;
+   
+    color: white;
+}
+/* Schedule */
+.schedule_body{
+   
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+    width: 100%;
+    height: 100vh;
+}
+.schedule_body h1{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 380px;
+    color: darkblue;
+}
+.schedule_tabel {
+   margin-left: 50px;
+   margin-right: 50px;
+   color: rgb(145, 96, 37);
+}
+.schedule_tabel  td{
+    height: 50px;
+    width: 200px;
+}
